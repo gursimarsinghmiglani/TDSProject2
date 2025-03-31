@@ -1,9 +1,14 @@
 {
     "redirects": [
-        {
-            "source": "/api/",
-            "destination": "/api",
-            "permanent": true
-        }
+      {
+        "source": "/api/",
+        "destination": "/api/api",
+        "permanent": true
+      },
+      {
+        "source": "/api",
+        "destination": "/api/api",
+        "permanent": true
+      }
     ]
-}
+  }
